@@ -1,0 +1,27 @@
+{
+  "extends": "@tsconfig/react-native",
+  "typeRoots": ["node_modules/@types", "src/types"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "target": "es2017",
+    "esModuleInterop": true,  
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "rootDir": "./",
+    "jsx": "react",
+    "lib": ["es2021"],
+    "strict": true,
+    "baseUrl": "."
+  }
+}
